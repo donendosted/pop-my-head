@@ -8,3 +8,9 @@
         height: 22vh;
     }
 }
+
+img {
+    @media (width >= 40rem) {
+        width: calc(var(--spacing) * 50)
+    }
+}

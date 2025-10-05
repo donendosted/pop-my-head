@@ -53,9 +53,9 @@ export default function App() {
           <button className={buttonClass} key={i} onClick={()=> handleClick(val, i)}>
             {
               val ? (
-                <img src="/public/face.png" />
+                <img src="/face.png" />
               ) : val === false ? (
-                <img src="/public/hit.png" />
+                <img src="/hit.png" />
               ) : null
             }
             </button>
