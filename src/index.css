@@ -1,0 +1,10 @@
+@import "tailwindcss";
+
+.boxsize {
+    height: 14vh;
+    width: 30vw;
+
+    @media (width >= 40rem) {
+        height: 22vh;
+    }
+}
