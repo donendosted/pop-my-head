@@ -41,11 +41,11 @@ export default function App() {
     return () => clearInterval(id)
   }, [timeout])
 
-  const buttonClass = "p-2 bg-white/20 rounded-lg border-b-6 border-r-8 border-blue-300 border-r-blue-300/50 m-1 flex justify-center items-center boxsize hover:bg-white/5 active:bg-pink-300/10 shadow-md active:shadow-none"
+  const buttonClass = "p-2 bg-white/20 rounded-lg border-b-6 border-r-8 select-none border-blue-300 border-r-blue-300/50 m-1 flex justify-center items-center boxsize hover:bg-white/5 active:bg-pink-300/10 shadow-md active:shadow-none"
   return (
     <>
     {score < 100 ? (
-    <div className="h-screen w-full p-2 bg-blue-200">
+    <div className="h-screen w-full p-2 bg-blue-200 select-none">
       <div className="flex justify-between bg-amber-100/20 text-gray-800">
         <h1 className="text-2xl md:text-6xl md:font-bold">THE POPING GAME</h1>
         <h2 className="font-bold text-2xl md:text-6xl">{score}</h2>
