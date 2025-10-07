@@ -20,7 +20,7 @@ export default function App() {
 
   function mechanics () {
     var temp = Array(15).fill(null)
-    for (let i = 0; i < Math.max(2,RandInt(3), RandInt(5)); i++) {
+    for (let i = 0; i < Math.max(1,RandInt(6), RandInt(6)); i++) {
       temp[RandInt(15)] = true
     }
     setTable(temp)
